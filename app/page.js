@@ -12,7 +12,7 @@ import {
 } from "@/lib/notion";
 import ClientUI from "@/components/ClientUI";
 
-export const revalidate = 60;
+export const revalidate = 1;
 
 export default async function Home() {
   const pageId = process.env.NOTION_PAGE_ID;
