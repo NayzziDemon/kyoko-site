@@ -330,7 +330,7 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
                   })}
 
                   <div className="glass-strong rounded-2xl p-6">
-                    <h3 className="text-2xl font-bold text-purple-800 mb-4 text-center" style={{ fontFamily: "Caveat, cursive" }}>✧ Процесс работы ✧</h3>
+                    <h3 className="text-2xl font-bold text-purple-800 mb-4 text-center" style={{ fontFamily: "Caveat, cursive" }}>✧ The work process ✧</h3>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                       {processSteps.map((step, i) => (
                         <div key={i} className="text-center p-4 rounded-xl bg-white/40 hover:bg-white/60 transition-colors">
@@ -346,7 +346,7 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
                     <div className="grid md:grid-cols-2 gap-6">
                       {rulesByCategory["will_draw"] && (
                         <div className="glass-strong rounded-xl p-6 border-l-4 border-green-400 hover:shadow-lg transition-shadow">
-                          <h3 className="text-lg font-bold text-green-700 mb-3 flex items-center gap-2"><i className="fas fa-check-circle" />Рисую</h3>
+                          <h3 className="text-lg font-bold text-green-700 mb-3 flex items-center gap-2"><i className="fas fa-check-circle" />I draw</h3>
                           <ul className="space-y-2 text-sm text-purple-700">
                             {rulesByCategory["will_draw"].map((item, i) => (
                               <li key={i} className="flex items-start gap-2"><span className="text-green-400 mt-1">•</span><span>{item}</span></li>
@@ -356,7 +356,7 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
                       )}
                       {rulesByCategory["wont_draw"] && (
                         <div className="glass-strong rounded-xl p-6 border-l-4 border-red-400 hover:shadow-lg transition-shadow">
-                          <h3 className="text-lg font-bold text-red-500 mb-3 flex items-center gap-2"><i className="fas fa-times-circle" />Не рисую</h3>
+                          <h3 className="text-lg font-bold text-red-500 mb-3 flex items-center gap-2"><i className="fas fa-times-circle" />I do not draw</h3>
                           <ul className="space-y-2 text-sm text-purple-700">
                             {rulesByCategory["wont_draw"].map((item, i) => (
                               <li key={i} className="flex items-start gap-2"><span className="text-red-400 mt-1">•</span><span>{item}</span></li>
