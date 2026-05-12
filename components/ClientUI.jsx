@@ -243,10 +243,8 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
               <div className="glass rounded-3xl p-8 md:p-12 shadow-2xl">
                 <div className="text-center mb-10">
                   <button onClick={() => setActiveTab("home")} className="text-purple-500 hover:text-purple-700 transition-colors mb-4 inline-flex items-center gap-2 text-sm">
-                    <i className="fas fa-arrow-left" /> Назад
+                    <i className="fas fa-arrow-left" /> Back
                   </button>
-                  <h2 className="text-4xl md:text-5xl font-bold text-purple-800 mb-2" style={{ fontFamily: "Caveat, cursive" }}>✦ Price List ✦</h2>
-                  <p className="text-purple-500">Цены и дополнительные опции</p>
                 </div>
 
                 {prices.length > 0 ? (
@@ -296,7 +294,7 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
                             <span className="text-white font-semibold text-lg">{art.name}</span>
                           </div>
                           <div className="absolute top-4 right-4 bg-black/40 text-white text-sm px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm">
-                            <i className="fas fa-expand mr-1" /> Увеличить
+                            <i className="fas fa-expand mr-1" /> Enlarge
                           </div>
                         </div>
                       ))}
@@ -310,10 +308,8 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
               <div className="glass rounded-3xl p-8 md:p-12 shadow-2xl">
                 <div className="text-center mb-10">
                   <button onClick={() => setActiveTab("home")} className="text-purple-500 hover:text-purple-700 transition-colors mb-4 inline-flex items-center gap-2 text-sm">
-                    <i className="fas fa-arrow-left" /> Назад
+                    <i className="fas fa-arrow-left" /> Back
                   </button>
-                  <h2 className="text-4xl md:text-5xl font-bold text-purple-800 mb-2" style={{ fontFamily: "Caveat, cursive" }}>✦ Terms of Service ✦</h2>
-                  <p className="text-purple-500">Правила, сроки и способы оплаты</p>
                 </div>
 
                 <div className="space-y-6">
