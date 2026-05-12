@@ -245,6 +245,7 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
                   <button onClick={() => setActiveTab("home")} className="text-purple-500 hover:text-purple-700 transition-colors mb-4 inline-flex items-center gap-2 text-sm">
                     <i className="fas fa-arrow-left" /> Back
                   </button>
+                  <h2 className="text-4xl md:text-5xl font-bold text-purple-800 mb-2" style={{ fontFamily: "Caveat, cursive" }}>✦ Price List ✦</h2>
                 </div>
 
                 {prices.length > 0 ? (
@@ -310,6 +311,7 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
                   <button onClick={() => setActiveTab("home")} className="text-purple-500 hover:text-purple-700 transition-colors mb-4 inline-flex items-center gap-2 text-sm">
                     <i className="fas fa-arrow-left" /> Back
                   </button>
+                  <h2 className="text-4xl md:text-5xl font-bold text-purple-800 mb-2" style={{ fontFamily: "Caveat, cursive" }}>✦ Terms of Service ✦</h2>
                 </div>
 
                 <div className="space-y-6">
