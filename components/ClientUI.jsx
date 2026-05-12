@@ -75,12 +75,12 @@ export default function ClientUI({ config, prices, extras, rules, portfolio, soc
   }, {});
 
   const categoryMeta = {
-    general: { icon: "fa-gavel", title: "Общие правила", color: "text-purple-800" },
-    payment: { icon: "fa-credit-card", title: "Оплата", color: "text-purple-800" },
-    deadlines: { icon: "fa-clock", title: "Сроки", color: "text-purple-800" },
-    process: { icon: "fa-paint-brush", title: "Процесс работы", color: "text-purple-800" },
-    will_draw: { icon: "fa-check-circle", title: "Рисую", color: "text-green-700" },
-    wont_draw: { icon: "fa-times-circle", title: "Не рисую", color: "text-red-500" },
+    general: { icon: "fa-gavel", title: "General rules", color: "text-purple-800" },
+    payment: { icon: "fa-credit-card", title: "Payment", color: "text-purple-800" },
+    deadlines: { icon: "fa-clock", title: "Deadlines", color: "text-purple-800" },
+    process: { icon: "fa-paint-brush", title: "The work process", color: "text-purple-800" },
+    will_draw: { icon: "fa-check-circle", title: "I draw", color: "text-green-700" },
+    wont_draw: { icon: "fa-times-circle", title: "I do not draw", color: "text-red-500" },
   };
 
   const socialColors = {
